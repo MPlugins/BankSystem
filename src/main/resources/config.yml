@@ -1,0 +1,44 @@
+#########################################################
+#                                                       #
+#               Plugin by Marvin Leiers                 #
+#             https://www.marvinleiers.de               #
+#                                                       #
+#########################################################
+
+
+############################
+### # General Settings # ###
+############################
+
+# Zeige Pluginverhalten in der Konsole (logging)
+enable-logging: false
+
+
+
+##########################
+### # MySQL Settings # ###
+##########################
+
+# Hostname der MySQL-Datenbank
+mysql-host: "localhost"
+
+# Name der Datenbank
+mysql-database: "banksystem"
+
+# Benutzer der MySQL-Datenbank
+mysql-user: "root"
+
+# Password des Benutzers
+mysql-password: ""
+
+
+
+###########################
+### # Plugin Settings # ###
+###########################
+
+# Währungsname im Singular
+currency-singular: "Neon"
+
+# Währungsname im Plural
+currency-plural: "Neonen"

@@ -1,0 +1,15 @@
+name: BankSystem
+version: ${project.version}
+main: de.marvinleiers.banksystem.BankSystem
+api-version: 1.16
+authors: [ Marvin_Leiers ]
+website: https://www.marvinleiers.de
+
+commands:
+  money:
+    aliases: geld
+  pay:
+  bank:
+
+depend:
+  - Vault
