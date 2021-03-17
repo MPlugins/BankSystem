@@ -1,4 +1,4 @@
-# BankSystem
+# BankSystem von [Marvin Leiers](https://www.marvinleiers.de)
 
 * Bargeld + Bankkonto
 * Startguthaben
