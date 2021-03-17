@@ -23,7 +23,7 @@ Spieler, die bereits eine Konto haben, können mit **/bank** ihre Finanzen und K
 * **/pay** <Spieler> <Anzahl> (*permission: befehl.money*): Überweise einen Betrag deines Geldes auf das Konto eines anderen Spielers.
 
 
-## For Developers
+## Für Entwickler
 Das BankSystem enthält ein _PlayerMoneyChangeEvent_, um die Finanzen eines Spieler so einfach wie möglich verfolgen zu können. Es funktioniert so:
 
 ```
