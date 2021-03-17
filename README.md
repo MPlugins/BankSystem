@@ -18,5 +18,6 @@ Spieler, die bereits eine Konto haben, können mit **/bank** ihre Finanzen und K
 
 ## Befehle
 
+* **/bank** (*permission: befehl.bank*): Verwalte deine Finanzen und Kostbarkeiten / erstelle ein Konto.
 * **/money**, **/geld** (*permssion: befehl.money*): Zeige den aktuellen Stand deines Bar-/Geldes an.
 * **/pay** <Spieler> <Anzahl> (*permission: befehl.money*): Überweise einen Betrag deines Geldes auf das Konto eines anderen Spielers.
