@@ -9,7 +9,7 @@
 
 ## Allgemeines
 
-Das BankSystem führt eine digitale Währung (Name änderbar) in das Spiel ein. Deine Spieler können also eine eigene Wirtschaft mit ihren eigenen Regeln erstellen. Das Plugin ist mit **Vault** kompatibel, das bedeutet, dass andere Plugins ohne Umwege auf deine Währung zugreifen können (Shops z.B) Im Falle eines Betrugs, kann das Szenario ganz einfach rekonstruiert werden, denn sämtliche Überweisungen / Transaktionen werden in der Datenbank erfasst und gesichert. 
+Das BankSystem führt eine digitale Währung (Name änderbar) in das Spiel ein. Deine Spieler können also eine eigene Wirtschaft mit ihren eigenen Regeln erstellen. Das Plugin ist mit **Vault** kompatibel, das bedeutet, dass andere Plugins ohne Umwege auf deine Währung zugreifen können (Shops z.B) Im Falle eines Betrugs durch einen oder mehrere Spieler, kann das Betrugsszenario ganz einfach rekonstruiert werden, denn sämtliche Überweisungen / Transaktionen werden in der Datenbank erfasst und gesichert. 
 
 Neue Spieler erhalten 5000 Bargeldeinheiten der Währung, sobald sie den Server betreten. Mit **/bank** können Spieler ein Bankkonto erstellen, um ihr Geld sicher zu lagern. Denn Spieler die sterben, lassen einen **15% - 35% Anteil** ihres Bargeldes fallen, den andere Spieler aufheben können.
 
