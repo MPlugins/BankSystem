@@ -21,3 +21,18 @@ Spieler, die bereits eine Konto haben, können mit **/bank** ihre Finanzen und K
 * **/bank** (*permission: befehl.bank*): Verwalte deine Finanzen und Kostbarkeiten / erstelle ein Konto.
 * **/money**, **/geld** (*permssion: befehl.money*): Zeige den aktuellen Stand deines Bar-/Geldes an.
 * **/pay** <Spieler> <Anzahl> (*permission: befehl.money*): Überweise einen Betrag deines Geldes auf das Konto eines anderen Spielers.
+
+
+## For Developers
+Das BankSystem enthält ein _PlayerMoneyChangeEvent_, um die Finanzen eines Spieler so einfach wie möglich verfolgen zu können. Es funktioniert so:
+
+```
+@EventHandler
+public void onMoneyChange(PlayerMoneyChangeEvent event)
+{
+  int newBalance = event.getNewBalance();
+  MoneyType moneyType = event.getMoneyType();
+  
+  // Do stuff
+}
+```
