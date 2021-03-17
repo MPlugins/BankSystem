@@ -2,7 +2,7 @@
 
 * Bargeld + Bankkonto
 * Startguthaben
-* Sicherer Itemvault für jeden Spieler
+* Sicherer Itemvault/Tresor für jeden Spieler
 * Einfach zu bedienen
 * Kompatibel mit Datenbank
 
@@ -13,7 +13,7 @@ Das BankSystem führt eine digitale Währung (Name änderbar) in das Spiel ein. 
 
 Neue Spieler erhalten 5000 Bargeldeinheiten der Währung, sobald sie den Server betreten. Mit **/bank** können Spieler ein Bankkonto erstellen, um ihr Geld sicher zu lagern. Denn Spieler die sterben, lassen einen **15% - 35% Anteil** ihres Bargeldes fallen, den andere Spieler aufheben können.
 
-Spieler, die bereits eine Konto haben, können mit **/bank** ihre Finanzen und Kostbarkeiten verwalten. Mit einem Klick auf **Einzahlen** können die Spieler durch Eingabe in den Chat die einzuzahlende Summe festlegen, analog funktioniert die Funktion des **Auszahlen**s. Mit einen Klick auf **Schließach** wird den Spielern eine Möglichkeit geboten, ihre kostbarsten Gegenstände in einem 27-Slot großen, privaten Schließfach zu lagern, auf das kein anderer Zugriff hat.
+Spieler, die bereits eine Konto haben, können mit **/bank** ihre Finanzen und Kostbarkeiten verwalten. Mit einem Klick auf **Einzahlen** können die Spieler durch Eingabe in den Chat die einzuzahlende Summe festlegen, analog funktioniert die Funktion des **Auszahlen**s. Mit einen Klick auf **Schließach** wird den Spielern eine Möglichkeit geboten, ihre kostbarsten Gegenstände in einem 27-Slot großen, privaten Schließfach/Tresor zu lagern, auf das kein anderer Zugriff hat.
 
 
 ## Befehle
