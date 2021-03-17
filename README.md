@@ -30,7 +30,7 @@ Das BankSystem enthält ein _PlayerMoneyChangeEvent_, um die Finanzen eines Spie
 @EventHandler
 public void onMoneyChange(PlayerMoneyChangeEvent event)
 {
-  int newBalance = event.getNewBalance();
+  double newBalance = event.getNewBalance();
   MoneyType moneyType = event.getMoneyType();
   
   // Do stuff
