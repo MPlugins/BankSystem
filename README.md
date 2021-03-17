@@ -1,0 +1,3 @@
+# BankSystem
+
+* Bargeld + Bankkonto
