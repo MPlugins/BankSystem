@@ -29,7 +29,7 @@ Spieler, die bereits eine Konto haben, können mit **/bank** ihre Finanzen und K
 ## Für Entwickler
 Das BankSystem enthält ein _PlayerMoneyChangeEvent_, um die Finanzen eines Spieler so einfach wie möglich verfolgen zu können. Es funktioniert so:
 
-```
+```java
 @EventHandler
 public void onMoneyChange(PlayerMoneyChangeEvent event)
 {
